@@ -1,0 +1,56 @@
+{
+  "SDE.SDE::PRCS_TAX": {
+    "target": {
+      "object": "PROCESS_TAXONOMY",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::MATU_ASSMT": {
+    "target": {
+      "object": "MATURITY_ASSESMENT_QUESTIONAIRE",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::METRICS": {
+    "target": {
+      "object": "METRICS",
+      "schema": "SDELEVATE"
+    }
+  },
+"SDE.SDE::EMPLOYEE": {
+    "target": {
+      "object": "EMPLOYEE",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::EMP_SAL": {
+    "target": {
+      "object": "EMPLOYEE_SALARY",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::ACT_COST": {
+    "target": {
+      "object": "ACTIVITY_COST_ALLOCATION",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::FEAS_RESP": {
+    "target": {
+      "object": "FEASIBILITY_COMPLEX_RESPONSE",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::MATU_SCOR": {
+    "target": {
+      "object": "MATURITY_ASSESMENT_SCORES",
+      "schema": "SDELEVATE"
+    }
+  },
+  "SDE.SDE::FEAS_PARAM": {
+    "target": {
+      "object": "FEASIBILITY_COMPLEX_PARAMETER",
+      "schema": "SDELEVATE"
+    }
+  }
+}

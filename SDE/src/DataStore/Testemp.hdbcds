@@ -1,0 +1,10 @@
+namespace DataWarehouse.DataStore;
+
+context Testemp {
+
+    /*@@layout{"layoutInfo":{"x":187,"y":117.5}}*/
+    entity Testemp {
+        key EMP_ID : Integer not null;
+            FNAME  : String(20);
+    };
+};

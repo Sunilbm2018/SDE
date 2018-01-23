@@ -1,0 +1,14 @@
+{
+	"SDE-grantor": {
+	"object_owner": { 
+			"roles": [
+				"SDE::external_access_g"
+			]
+		},
+		"application_user": {
+			"roles": [
+				"SDE::external_access"
+			]
+		}
+	}
+}

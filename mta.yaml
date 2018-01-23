@@ -1,0 +1,22 @@
+ID: SDE
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: SDE
+   type: hdb
+   path: SDE
+   requires:
+    - name: hdi_SDE
+      properties:
+        TARGET_CONTAINER: ~{hdi-container-name}
+    - name: SDE-grantor
+
+resources:
+ - name: hdi_SDE
+   type: com.sap.xs.hdi-container
+   properties:
+      hdi-container-name: ${service-name}
+   
+ - name: SDE-grantor
+   type: org.cloudfoundry.existing-service

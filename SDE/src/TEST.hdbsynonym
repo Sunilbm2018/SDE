@@ -1,0 +1,8 @@
+{
+  "SDE.SDE::Test": {
+    "target": {
+      "object": "PROCESS_TAXONOMY",
+      "schema": "SDELEVATE"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="SDE.SDE::VDM_METRICS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" enforceSqlExecution="false" outputViewType="Projection" cacheInvalidationPeriod="NONE">
+<descriptions defaultDescription="VDM_METRICS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDE.SDE::METRICS">
+    <resourceUri>SDE.SDE::METRICS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="SDE.SDE::METRICS">
+  <attributes>
+    <attribute id="CUST_ID" order="1" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="CUST_ID"/>
+      <keyMapping columnObjectName="METRICS" columnName="CUST_ID"/>
+    </attribute>
+    <attribute id="METRICS_KEY" order="2" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="METRICS_KEY"/>
+      <keyMapping columnObjectName="METRICS" columnName="METRICS_KEY"/>
+    </attribute>
+    <attribute id="PROCESS_KEY" order="3" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="PROCESS_KEY"/>
+      <keyMapping columnObjectName="METRICS" columnName="PROCESS_KEY"/>
+    </attribute>
+    <attribute id="CUST_NAME" order="4" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="CUST_NAME"/>
+      <keyMapping columnObjectName="METRICS" columnName="CUST_NAME"/>
+    </attribute>
+    <attribute id="METRICS_TEXT" order="5" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="METRICS_TEXT"/>
+      <keyMapping columnObjectName="METRICS" columnName="METRICS_TEXT"/>
+    </attribute>
+    <attribute id="PROCESS_TEXT" order="6" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="PROCESS_TEXT"/>
+      <keyMapping columnObjectName="METRICS" columnName="PROCESS_TEXT"/>
+    </attribute>
+    <attribute id="COMPANY_BENCHMARK" order="7" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="COMPANY_BENCHMARK"/>
+      <keyMapping columnObjectName="METRICS" columnName="COMPANY_BENCHMARK"/>
+    </attribute>
+    <attribute id="INDUSTRY_BENCHMARK" order="8" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="INDUSTRY_BENCHMARK"/>
+      <keyMapping columnObjectName="METRICS" columnName="INDUSTRY_BENCHMARK"/>
+    </attribute>
+    <attribute id="UNITS" order="9" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="UNITS"/>
+      <keyMapping columnObjectName="METRICS" columnName="UNITS"/>
+    </attribute>
+    <attribute id="FILE_NAME" order="10" attributeHierarchyActive="false" displayAttribute="false">
+      <descriptions defaultDescription="FILE_NAME"/>
+      <keyMapping columnObjectName="METRICS" columnName="FILE_NAME"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
